@@ -1,0 +1,33 @@
+{
+  "name": "reading-list",
+  "version": "1.0.0",
+  "description": "Next.js with MongoDB",
+  "author": "Helen Yu",
+  "license": "ISC",
+  "dependencies": {
+    "archetype-js": "0.6.1",
+    "body-parser": "1.17.1",
+    "co": "4.6.0",
+    "express": "4.15.2",
+    "mongodb": "2.2.26",
+    "next": "4.2.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.84.0",
+    "superagent": "3.5.2"
+  },
+  "scripts": {
+    "dev": "node ."
+  },
+  "standard": {
+    "global": [
+      "describe",
+      "before",
+      "after",
+      "beforeEach",
+      "afterEach",
+      "it"
+    ]
+  }
+}
